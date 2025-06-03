@@ -39,11 +39,13 @@ Bu proje, Qt tabanlı modern bir arayüz ile entegre edilmiş ve **ROS (Robot Op
 cd ~
 git clone https://github.com/kullanici-adi/pcl_qt_viewer.git
 cd pcl_qt_viewer
-
-src/ klasörüne geçin, varsa eksik bağımlılıkları yükleyin:
+```
+3.src/ klasörüne geçin, varsa eksik bağımlılıkları yükleyin ve projeyi derleyin:
+``` bash 
 cd src
 rosdep install --from-paths . --ignore-src -r -y
-
 cd ..
 catkin_make
 source devel/setup.bash
+```
+Projedeki run.sh ile direkt olarak çalıştırmanız mümkündür.
