@@ -1,0 +1,8 @@
+prefix=/home/berre/bitirme_ws/devel
+
+Name: pcl_qt_viewer
+Description: Description of pcl_qt_viewer
+Version: 0.0.1
+Cflags: -I/home/berre/bitirme_ws/src/pcl_qt_viewer/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs sensor_msgs pcl_conversions pcl_ros
