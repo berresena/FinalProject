@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>810</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QT PCL Haritalama Arayüzü</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="mainGridLayout">
+    <item row="0" column="0" colspan="2">
+     <widget class="QOpenGLWidget" name="openGLWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>1</horstretch>
+        <verstretch>1</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>640</width>
+        <height>480</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: black;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="controlGroupBox">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="startButton">
+         <property name="text">
+          <string>Haritalamayı Başlat</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="stopButton">
+         <property name="text">
+          <string>Haritalamayı Durdur</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="statusLabel">
+         <property name="text">
+          <string>Hazır | Robot Modeli: Waffle Pi | Haritalama: Pasif</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="konumLabel">
+         <property name="text">
+          <string>Robotunuzun koordinatları: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="pointSizeLabel">
+         <property name="text">
+          <string>Nokta Boyutu: 5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="pointSizeSlider">
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>20</number>
+         </property>
+         <property name="value">
+          <number>5</number>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QGroupBox" name="cameraGroupBox">
+      <property name="title">
+       <string>Kamera Görüntüsü</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="quickWidget">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
