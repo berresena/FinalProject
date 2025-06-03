@@ -1,5 +1,6 @@
 # FinalProject
-    ![project_gif](https://github.com/user-attachments/assets/7aa1a09e-0958-433a-a4f5-c6c8ddf562cd)
+![Proje GIF](https://raw.githubusercontent.com/berresena/FinalProject/main/project_gif.gif)
+
 🚀 Qt-Based ROS Integrated 3D Mapping and Obstacle Avoidance System
 🇹🇷 Açıklama (Türkçe):
 
