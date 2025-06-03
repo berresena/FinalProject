@@ -1,4 +1,5 @@
 # FinalProject
+    ![project_gif](https://github.com/user-attachments/assets/7aa1a09e-0958-433a-a4f5-c6c8ddf562cd)
 🚀 Qt-Based ROS Integrated 3D Mapping and Obstacle Avoidance System
 🇹🇷 Açıklama (Türkçe):
 
@@ -36,3 +37,5 @@ Key Features:
     Motion control via geometry_msgs/Twist messages
 
     Accurate localization using ROS TF transformations
+
+
