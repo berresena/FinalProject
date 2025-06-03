@@ -12,7 +12,8 @@ Bu proje, ROS (Robot Operating System) altyapısı ve Qt arayüzü kullanılarak
 
     VFH (Vector Field Histogram) algoritması ile dinamik engel tespiti ve yönelim planlaması
 
-    Kapsama algoritması ile tam alan gezintisi (coverage planner)
+    Kapsama algoritması ile tam alan gezintisi (coverage planner)![vokoscreen-2025-06-04_00-25-57-_online-video-cutter com_](https://github.com/user-attachments/assets/d6180143-7f63-4146-b150-d2282a3ab1f8)
+
 
     geometry_msgs/Twist mesajları ile hareket komutu gönderimi
 
